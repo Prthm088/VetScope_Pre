@@ -1,0 +1,50 @@
+{% load static %}
+<html>
+<head>
+    <title>VetScope</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"> <!-- Link to your CSS file -->
+    <style>
+        .hero{
+            background-image: url("{% static 'images/dogbg.jpeg' %}");
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    <h1 align='left'>VetScope</h1>
+    <nav align="right">
+        <a href="#home">Home</a>
+        <a href="#chatbot">ChatBot</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Welcome to VetScope</h1>
+</div>
+
+<div class="get-started">
+    <button onclick="location.href='#chatbot'">Get Started</button>
+</div>
+
+<div class="about">
+    <h2>About VetScope</h2>
+    <p>VetScope is your go-to bot for all animal-related queries. Whether you have questions about pet care, animal behavior, or veterinary advice, VetScope is here to help you with accurate and friendly responses.</p>
+</div>
+
+<div class="founder">
+    <h2>Founder</h2>
+    <p>Name: Pratham Prakash Mohod</p>
+    <p>CS Engineer from Yavatmal, Maharashtra</p>
+</div>
+
+</body>
+</html>

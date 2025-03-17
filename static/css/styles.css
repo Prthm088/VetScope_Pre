@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.get-started {
+    margin: 20px 0;
+}
+.get-started button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.about {
+    padding: 20px;
+    text-align: center;
+}
+.founder {
+    padding: 20px;
+    text-align: center;
+    background-color: #e0e0e0;
+}
